@@ -1,0 +1,14 @@
+<img style="height: 9px; display: inline" src="{{ ASSET_PATH }}/images/dash.png" />
+<div class="container">
+  <div class="page-container">
+      <div class="page-title-header"> <!-- Remove the # if you want the default -->
+        <h1 class="page-title-header-text">{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+      </div>
+
+      <div class="row" id="row">
+        <div class="col-xs-12">
+          {{ content }}
+        </div>
+      </div>
+  </div>
+</div>

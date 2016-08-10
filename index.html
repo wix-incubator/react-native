@@ -1,0 +1,63 @@
+---
+layout: default
+title: Wix - RN Open Source
+
+---
+{% include JB/setup %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<br />
+{% for component in site.components %}
+  {% if component.paralax %}
+    <div style="background-image: url({{component.paralax}})" class="paralax-effect">
+  {% endif %}
+  <img style="height: 9px; display: inline" src="{{ ASSET_PATH }}/images/dash.png" />
+    <section id={{component.title}}>
+      <div class="container">
+        {% if component.paralax %}
+        <div class="paralax-container">
+        {% else %}
+        <div class="page-container">
+        {% endif %}
+          <div class="page-title-header"> <!-- Remove the # if you want the default -->
+            <h1 class="page-title-header-text">{{ component.title }}</h1>
+          </div>
+
+          <div class="row" id="row">
+            <div class="col-xs-12">
+              {% include components/{{component.file}} %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {% if component.paralax %}
+    </div>
+  {% endif %}
+{% endfor %}
