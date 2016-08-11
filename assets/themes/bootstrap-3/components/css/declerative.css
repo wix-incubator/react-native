@@ -9,10 +9,23 @@
   display: -webkit-flex; /* Safari */
   display: flex;
   flex-direction: column;
-  flex: 1;
+  width: 400px;
   margin: 10px;
 }
 
+.declerative-image-container {
+  position: relative;
+
+}
+
 .declerative-image {
-  height: 500px;;
+  height: 400px;
+  margin-left: 50px;
+
+}
+
+#iphone-frame {
+  width: 243px;
+  height: 417px;
+
 }

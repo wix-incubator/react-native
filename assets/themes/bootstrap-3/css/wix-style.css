@@ -224,6 +224,7 @@ h3 {
 	letter-spacing: 2px;
 	font-size: 24px;
 	font-weight: normal;
+	color: black;
 }
 
 body {
@@ -248,6 +249,21 @@ h3 .paralax-container {
 	color: white;
 }
 
+a {
+	font-family: Helvetica Neue;
+	color: #733CA6;
+}
+
+a:hover {
+	color: #733CA6;
+	text-decoration: none;
+}
+
 .page-image {
 
+}
+
+
+.buffer {
+	margin-top: 30px;
 }
