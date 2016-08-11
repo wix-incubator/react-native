@@ -7,17 +7,22 @@
 	background-color: #20303c;
 }
 
-@font-face {
-		font-family: myFont;
-		src: url(../fonts/helvetica.woff) format("opentype");
+#jb-navbar-collapse .dash-image {
+	float: left;
+	width: 17%;
+	height: 10px;
+	margin: 10px;
+	margin-top: 15px;
+	border-color: black;
+
 }
 
 .wix-io #title {
-	font-family: myFont;
-	font-size: 72px;
-	font-weight: lighter;
+	font-family: HelveticaNeueW01-UltLt;
+	font-size: 84px;
 	margin: 0px;
 	letter-spacing: 3px;
+	font-weight: normal;
 }
 
 #nav-top-header {
@@ -60,10 +65,13 @@
 }
 
 .project-tagline {
-	font-family: myFont;
-	font-size: 24;
-	margin: 30px;
+	font-family: helveticaneuew01-ultlt,sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 24px;
+	margin-bottom: 12px;
 	letter-spacing: 3px;
+	opacity: 0.8;
 }
 
 .wix-page-header {
@@ -95,14 +103,25 @@
 	background-size: cover;
 }
 
+.wix-page-header .dash-image {
+	margin-bottom: 20px;
+}
+
 .header-button {
+	font-family: HelveticaNeueW01-UltLt;
 	display: inline-block;
 	color: #ffffff;
-	background-color: #8235cf;
+	background-color: #733CA6;
 	padding: 10px;
 	padding-left: 30px;
 	padding-right: 30px;
 	border-radius: 30px;
+	font-size: 16px;
+	letter-spacing: 1.2px;
+}
+
+.header-button:hover {
+	opacity: 0.9;
 }
 
 .btn {
@@ -201,7 +220,7 @@
 }
 
 h3 {
-	font-family: myFont;
+	font-family: Helvetica Neue;
 	letter-spacing: 2px;
 	font-size: 24px;
 	font-weight: normal;
@@ -211,7 +230,7 @@ body {
 	font-size: 15px;
 	font-weight: normal;
 	line-height: 24px;
-	font-family: myFont;
+	font-family: HelveticaNeueW01-UltLt;
 }
 
 h3 .page-container {

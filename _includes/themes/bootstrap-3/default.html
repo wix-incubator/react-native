@@ -21,6 +21,9 @@
     <!-- Custom styles -->
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/wix-style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}/fonts/fontFace.css" rel="stylesheet" type="text/css" media="all">
+
+    {% include components/head.html %}
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -62,7 +65,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="jb-navbar-collapse">
-          <img style="float: left; width: 17%; height: 10px; margin: 10px;" src="{{ ASSET_PATH }}/images/dash.png" />
+          <img class="dash-image" src="{{ ASSET_PATH }}/images/dash.png" />
           <a href="{{ BASEURL }}/"><img style="float: left; height: 30px; margin: 10px; margin-left: 50px; margin-right: 50px;" src="{{ ASSET_PATH }}/images/logo.png" /></a>
           <ul class="nav navbar-nav">
             {% assign pages_list = site.pages %}

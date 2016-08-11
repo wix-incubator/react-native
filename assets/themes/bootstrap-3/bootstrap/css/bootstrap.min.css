@@ -3976,11 +3976,14 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 .navbar-default .navbar-nav>li>a {
     color: #ffffff;
+    letter-spacing: 1.2px;
+    font-family: HelveticaNeueW01-UltLt;;
+    font-weight: 200;
     padding-left: 50px;
 }
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: gold;
+    color: #ab8aca;
     background-color: transparent
 }
 .navbar-default .navbar-nav>.active>a,
