@@ -10,8 +10,8 @@
 }
 
 .preview-section a {
-  font-size: 18px;
-  color: grey;
+  font-family: Helvetica Neue;
+  font-size: 14px;
 }
 
 .preview-section a:hover {
