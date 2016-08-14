@@ -38,7 +38,7 @@ components:
   -
     file: projects.html
     title: PROJECTS
-    paralax: /assets/themes/bootstrap-3/images/space.jpeg
+    paralax: /open-source-template/assets/themes/bootstrap-3/images/space.jpeg # Replace open-source-template to your repository name
   -
     file: projects_preview.html
     title: PROJECTS PREVIEW
