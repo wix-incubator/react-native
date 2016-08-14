@@ -197,12 +197,14 @@
 	color: #8235cf;
 	letter-spacing: 4.8px;
 	margin: 0;
+	font-family: Helvetica Neue Thin;
 }
 
 .paralax-container .page-title-header-text {
 	color: white;
 	letter-spacing: 4.8px;
 	margin: 0;
+	font-family: Helvetica Neue Thin;
 }
 
 .page-container .row {
@@ -263,7 +265,84 @@ a:hover {
 
 }
 
-
 .buffer {
 	margin-top: 30px;
+}
+
+.footer-container {
+	align-items: center;
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+
+.wix-footer {
+	display: -webkit-flex; /* Safari */
+	-webkit-flex-direction: row; /* Safari 6.1+ */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	margin: 20px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.wix-footer .subscribe-button {
+	border: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+	color: black;
+}
+
+.wix-footer .subscribe-button:hover {
+	background-color: #733CA6;
+	color: white;
+	border-color: white;
+}
+
+.wix-footer .footer-links-container {
+	display: -webkit-flex; /* Safari */
+	-webkit-flex-direction: row; /* Safari 6.1+ */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	flex: 1;
+}
+
+.links-list {
+	list-style-type: none;
+	margin: 30px;
+}
+
+.links-list a {
+	color: grey;
+}
+
+.links-list a:hover {
+	color: #733CA6
+}
+
+.wix-footer .subscribe-container {
+	margin: 20px;
+	flex: 1;
+}
+
+.wix-footer p {
+	margin-top: 10px;
+	color: black;
+	opacity: 100%;
+	font-family: Helvetica Neue Thin;
+}
+
+.wix-footer .email-container {
+	margin: 20px;
+	flex: 1;
 }

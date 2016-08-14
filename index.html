@@ -35,7 +35,7 @@ $(document).ready(function(){
 <br />
 {% for component in site.components %}
   {% if component.paralax %}
-    <div style="background-image: url({{component.paralax}})" class="paralax-effect">
+    <div style="background-image: url({{component.paralax}});" class="paralax-effect">
   {% endif %}
   <img style="height: 9px; display: inline" src="{{ ASSET_PATH }}/images/dash.png" />
     <section id={{component.title}}>
