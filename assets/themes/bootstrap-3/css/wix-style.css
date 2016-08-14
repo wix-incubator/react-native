@@ -107,8 +107,7 @@
 	margin-bottom: 20px;
 }
 
-.header-button {
-	font-family: HelveticaNeueW01-UltLt;
+.wix-page-header .header-button {
 	display: inline-block;
 	color: #ffffff;
 	background-color: #733CA6;
@@ -118,10 +117,21 @@
 	border-radius: 30px;
 	font-size: 16px;
 	letter-spacing: 1.2px;
+
+	-webkit-transition: opacity 1s ease-out;
+	-moz-transition: opacity 1s ease-out;
+	-o-transition: opacity 1s ease-out;
+	transition: opacity 1s ease-out;
+
+}
+
+.header-button a {
+	font-family: HelveticaNeueW01-UltLt;
 }
 
 .header-button:hover {
 	opacity: 0.9;
+	cursor: pointer;
 }
 
 .btn {
@@ -162,6 +172,10 @@
 	text-align: center;
 }
 
+.component-container {
+
+}
+
 .wix-io .page-container {
 	margin-bottom: 100px;
   display: -webkit-flex; /* Safari */
@@ -176,6 +190,15 @@
   -webkit-flex-direction: row; /* Safari 6.1+ */
   display: flex;
   flex-direction: row;
+}
+
+.dash-title {
+ height: 9px;
+ width: 120px;
+ display: inline;
+ float: left;
+ margin-top: 5px;
+
 }
 
 .page-container .page-title-header {
@@ -254,6 +277,11 @@ h3 .paralax-container {
 a {
 	font-family: Helvetica Neue;
 	color: #733CA6;
+
+	-webkit-transition: color 500ms ease-out;
+	-moz-transition: color 500ms ease-out;
+	-o-transition: color 500ms ease-out;
+	transition: color 500ms ease-out;
 }
 
 a:hover {
@@ -274,6 +302,7 @@ a:hover {
 	display: block;
 	margin: auto;
 	width: 70%;
+	justify-content: center;
 }
 
 .wix-footer {
@@ -292,16 +321,22 @@ a:hover {
 	border: solid;
 	border-color: black;
 	border-width: 1px;
-	border-radius: 10px;
+	border-radius: 30px;
 	text-align: center;
-	padding: 10px;
-	color: black;
+	padding: 8px;
+	color: grey;
+	width: 130px;
+	align-items: center;
+
+	-webkit-transition: background-color, color 1s ease-out;
+	-moz-transition: background-color, color 1s ease-out;
+	-o-transition: background-color, color 1s ease-out;
+	transition: background-color, color 1s ease-out;
 }
 
 .wix-footer .subscribe-button:hover {
 	background-color: #733CA6;
 	color: white;
-	border-color: white;
 }
 
 .wix-footer .footer-links-container {
@@ -323,7 +358,8 @@ a:hover {
 }
 
 .links-list a {
-	color: grey;
+	color: black;
+	font-family: Helvetica Neue Thin;
 }
 
 .links-list a:hover {
@@ -332,7 +368,9 @@ a:hover {
 
 .wix-footer .subscribe-container {
 	margin: 20px;
-	flex: 1;
+	display: flex;
+	flex-direction: column;
+	flex: 0.5;
 }
 
 .wix-footer p {
@@ -344,5 +382,7 @@ a:hover {
 
 .wix-footer .email-container {
 	margin: 20px;
+	display: flex;
+	flex-direction: column;
 	flex: 1;
 }

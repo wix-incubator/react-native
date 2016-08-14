@@ -3980,6 +3980,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
     font-family: HelveticaNeueW01-UltLt;;
     font-weight: 200;
     padding-left: 50px;
+
+    -webkit-transition: background-color 300ms linear, color 300ms linear;
+    -moz-transition: background-color 300ms linear, color 300ms linear;
+    -o-transition: background-color 300ms linear, color 300ms linear;
+    -ms-transition: background-color 300ms linear, color 300ms linear;
+    transition: background-color 300ms linear, color 300ms linear;
 }
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {

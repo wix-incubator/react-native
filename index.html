@@ -32,33 +32,44 @@ $(document).ready(function(){
 });
 </script>
 
-<br />
-{% for component in site.components %}
-  {% if component.paralax %}
-    <div style="background-image: url({{component.paralax}});" class="paralax-effect">
-  {% endif %}
-  <img style="height: 9px; display: inline" src="{{ ASSET_PATH }}/images/dash.png" />
-    <section id={{component.title}}>
-      <div class="container">
-        {% if component.paralax %}
-        <div class="paralax-container">
-        {% else %}
-        <div class="page-container">
-        {% endif %}
-          <div class="page-title-header"> <!-- Remove the # if you want the default -->
-            <h1 class="page-title-header-text">{{ component.title }}</h1>
-          </div>
 
-          <div class="row" id="row">
-            <div class="col-xs-12">
-              {% include components/{{component.file}} %}
+{% for component in site.components %}
+  <div class="component-container">
+    {% if component.paralax %}
+      <div style="background-image: url({{component.paralax}}); padding-top: 50px;" class="paralax-effect">
+    {% else %}
+      <div style="padding-top: 50px;">
+    {% endif %}
+    {% if component.title %}
+      {% if component.paralax %}
+      <img class="dash-title" src="{{ ASSET_PATH }}/images/white_dash.png" />
+      {% else %}
+      <img class="dash-title" src="{{ ASSET_PATH }}/images/dash.png" />
+      {% endif %}
+    {% endif %}
+      <section id={{component.title}}>
+        <div class="container">
+          {% if component.paralax %}
+          <div class="paralax-container">
+          {% else %}
+          <div class="page-container">
+          {% endif %}
+          {% if component.title %}
+            <div class="page-title-header"> <!-- Remove the # if you want the default -->
+              <h1 class="page-title-header-text">{{ component.title }}</h1>
             </div>
-            <img class="buffer" src="{{ ASSET_PATH }}/images/buffer.png" />
+          {% endif %}
+            <div class="row" id="row">
+              <div class="col-xs-12">
+                {% include components/{{component.file}} %}
+              </div>
+              {% if component.buffer %}
+              <img class="buffer" src="{{ ASSET_PATH }}/images/buffer.png" />
+              {% endif %}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  {% if component.paralax %}
+      </section>
     </div>
-  {% endif %}
+  </div>
 {% endfor %}

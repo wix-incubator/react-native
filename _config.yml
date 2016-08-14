@@ -22,29 +22,33 @@ baseurl: ""
 
 navigation:
   -
-    href: \#Declerative
-    title: Declerative
+    href: \#About
+    title: About
   -
-    href: \#Blog
+    href: \#PROJECTS
+    title: Projects
+  -
+    href: "http://www.wix.engineering/"
     title: Blog
   -
-    href: "https://wix.com"
-    title: Wix.com
+    href: "http://www.wix.engineering/"
+    title: Wix Engineering
 
 components:
   -
     file: declerative.html
-    title: Declerative
+    title: About
+    buffer: true
   -
     file: projects.html
     title: PROJECTS
     paralax: /assets/themes/bootstrap-3/images/space.jpeg
+    buffer: true
   -
     file: projects_preview.html
     title: PROJECTS PREVIEW
   -
     file: blog.html
-    title:
     paralax: https://static.wixstatic.com/media/9ab0d1_9ad8037f74f34908aada06407b04c88e~mv1.jpg/v1/fill/w_1282,h_1082,al_t,q_85,usm_0.66_1.00_0.01/9ab0d1_9ad8037f74f34908aada06407b04c88e~mv1.jpg
 
 projects_preview:
