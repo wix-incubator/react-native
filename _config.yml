@@ -44,7 +44,7 @@ components:
   -
     file: projects.html
     title: PROJECTS
-    paralax: /open-source-template/assets/themes/bootstrap-3/images/space.jpeg # Replace open-source-template to your repository name
+    paralax: https://static.wixstatic.com/media/9ab0d1_2e3e6f22fd83405ca6df3b2f840eb3ae.jpg/v1/fill/w_1181,h_1082,al_c,q_85,usm_0.66_1.00_0.01/9ab0d1_2e3e6f22fd83405ca6df3b2f840eb3ae.jpg # Replace open-source-template to your repository name
     buffer: true
   -
     file: projects_preview.html
@@ -58,7 +58,9 @@ projects_preview:
     id: 0
     title: React Native Navigation
     content: App-wide support for 100% native navigation with an easy cross-platform interface.
-    image: https://static.wixstatic.com/media/713b90_b1f6ad9b00f745dabf827f7217ab777c~mv2.png/v1/fill/w_207,h_422,al_c,q_80,usm_0.66_1.00_0.01/713b90_b1f6ad9b00f745dabf827f7217ab777c~mv2.png
+    images:
+      ios: https://static.wixstatic.com/media/713b90_b1f6ad9b00f745dabf827f7217ab777c~mv2.png/v1/fill/w_207,h_422,al_c,q_80,usm_0.66_1.00_0.01/713b90_b1f6ad9b00f745dabf827f7217ab777c~mv2.png
+      android: https://www.android.com/static/img/history/features/feature_donut_2.png
     link:
       title: Github
       url: https://github.com/wix/react-native-navigation
@@ -66,7 +68,9 @@ projects_preview:
     id: 1
     title: React Native Camera Kit
     content: Advanced native camera control with pre-defined aspect ratio, crop, etc
-    image: https://static.wixstatic.com/media/713b90_e5cda94f0af948c58434154f2735480a~mv2.png/v1/fill/w_207,h_422,al_c,q_80,usm_0.66_1.00_0.01/713b90_e5cda94f0af948c58434154f2735480a~mv2.png
+    images:
+      ios: https://static.wixstatic.com/media/713b90_e5cda94f0af948c58434154f2735480a~mv2.png/v1/fill/w_207,h_422,al_c,q_80,usm_0.66_1.00_0.01/713b90_e5cda94f0af948c58434154f2735480a~mv2.png
+      android: https://www.android.com/static/img/history/features/feature_donut_2.png
     link:
       title: Github
       url: https://github.com/wix/react-native-camera-kit
@@ -74,7 +78,9 @@ projects_preview:
     id: 2
     title: React Native Notifications
     content: Handle all the aspects of push notifications for your app, including remote and local notifications, interactive notifications, silent notifications, and more.
-    image: https://static.wixstatic.com/media/713b90_86f227f56d25480abd85e2bda0003c5a~mv2.gif
+    images:
+       ios: https://static.wixstatic.com/media/713b90_86f227f56d25480abd85e2bda0003c5a~mv2.gif
+       android: https://www.android.com/static/img/history/features/feature_donut_2.png
     link:
       title: Github
       url: https://github.com/wix/react-native-notifications
@@ -82,7 +88,9 @@ projects_preview:
     id: 3
     title: React Native WordPress Rich Text Editor
     content: React Native Wrapper for WordPress Rich Text Editor. The WordPress-Editor is the text editor used in the official WordPress mobile apps to create and edit pages & posts. In short it's a simple, straightforward way to visually edit HTML.
-    image: https://static.wixstatic.com/media/713b90_44ede959d38441aa9955bb5137503fa6~mv2.png/v1/fill/w_207,h_422,al_c,q_80,usm_0.66_1.00_0.01/713b90_44ede959d38441aa9955bb5137503fa6~mv2.png
+    images:
+      ios: https://static.wixstatic.com/media/713b90_44ede959d38441aa9955bb5137503fa6~mv2.png/v1/fill/w_207,h_422,al_c,q_80,usm_0.66_1.00_0.01/713b90_44ede959d38441aa9955bb5137503fa6~mv2.png
+      android: https://www.android.com/static/img/history/features/feature_donut_2.png
     link:
       title: Github
       url: https://github.com/wix/react-native-wordpress-editor
