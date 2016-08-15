@@ -11,7 +11,7 @@
       <p>{{preview.content}}</p>
       <a href={{preview.link.url}} target="_blank">{{preview.link.title}} ></a>
     </div>
-    <div id="previewImage" class="preview-image">
+    <div id="previewImage_{{ preview.id}}" class="preview-image">
         <!-- <a href={{preview.link.url}} target="_blank"><img style="width: 207px; height: auto;" src={{preview.image}} /></a> -->
     </div>
 
@@ -19,7 +19,8 @@
   <img src="{{ ASSET_PATH }}/images/buffer.png" />
   <script type="text/babel">
     // Mount React Component (which uses WebComponent which uses React)
-    var container = document.getElementById('previewImage');
+    const containerId = 'previewImage_{{ preview.id }}'
+    var container = document.getElementById(containerId);
     container.text = "Hello";
     const segments = [
       {
