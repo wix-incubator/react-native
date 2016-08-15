@@ -19,7 +19,8 @@
   <img src="{{ ASSET_PATH }}/images/buffer.png" />
   <script type="text/babel">
     // Mount React Component (which uses WebComponent which uses React)
-    const containerId = 'previewImage_{{ preview.id }}'
+    const containerId = 'previewImage_{{ preview.id }}';
+    console.log(containerId);
     var container = document.getElementById(containerId);
     container.text = "Hello";
     const segments = [
