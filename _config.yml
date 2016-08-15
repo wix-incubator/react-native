@@ -20,6 +20,8 @@ author :
 
 baseurl: ""
 
+repo_name: open-source-template
+
 navigation:
   -
     href: \#About
