@@ -16,6 +16,9 @@
 
   </div>
   <img src="{{ ASSET_PATH }}/images/buffer.png" />
+
+  <!-- TODO I need to find a way to <script>To the Preview.js but linking the container id with preview.id.
+  Meanwhile, it has to be at the same page.</script>-->
   <script type="text/babel">
     const styles = {
       container: {
@@ -30,8 +33,11 @@
       },
 
       button: {
-        width: 40,
-        height: 40,
+        height: 20,
+        margin: 12,
+        marginBottom: 3,
+        marginTop: 3,
+
       },
 
       image: {
@@ -53,7 +59,7 @@
       render() {
         return (
           <div style={styles.container}>
-            <img style={styles.image} src={this.state.selectedSegment.previewImage} />
+            <a href="{{ preview.link.url }}" target="_blank"><img style={styles.image} src={this.state.selectedSegment.previewImage} /></a>
             <div style={styles.buttonsContainer}>
               {
                 _.map(this.props.segments, (segment) => {
@@ -78,12 +84,12 @@
     const segments = [
       {
         key: 'iOS',
-        button: "https://www.hostmerchantservices.com/wp-content/uploads/2014/09/MetroUI-Folder-OS-OS-Apple-icon.png",
+        button: "{{ ASSET_PATH }}/images/common-apple-icon.png",
         previewImage: "{{ preview.images.ios }}",
       },
       {
         key: 'Android',
-        button: "http://camranger.com/wp-content/uploads/2014/10/Android-Icon.png",
+        button: "{{ ASSET_PATH }}/images/common-android-icon.png",
         previewImage: "{{ preview.images.android }}",
       }
     ];
