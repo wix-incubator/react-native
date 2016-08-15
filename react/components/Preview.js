@@ -43,7 +43,6 @@ class Preview extends React.Component {
                   this.setState({
                     selectedSegment: segment
                   })
-                  this.render()
                 }} />
               )
             })
@@ -55,7 +54,9 @@ class Preview extends React.Component {
 }
 
 // Mount React Component (which uses WebComponent which uses React)
-var container = document.getElementById('container');
+const containerId = 'previewImage_{{ preview.id }}';
+console.log("ID: ", containerId);
+var container = document.getElementById(containerId);
 const segments = [
   {
     key: 'Android',
