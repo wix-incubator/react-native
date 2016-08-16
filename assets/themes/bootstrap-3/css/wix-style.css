@@ -65,13 +65,12 @@
 }
 
 .project-tagline {
-	font-family: HelveticaNeueW01-45Ligh ,sans-serif;
+	font-family: HelveticaNeueW01-UltLt ,sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 	margin: 24px;
 	margin-bottom: 12px;
 	letter-spacing: 3px;
-	opacity: 0.8;
 }
 
 .wix-page-header {
