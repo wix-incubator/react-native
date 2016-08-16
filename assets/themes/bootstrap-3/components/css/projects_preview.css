@@ -3,10 +3,17 @@
   -webkit-flex-direction: row; /* Safari 6.1+ */
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
   margin: 5px;
   margin-top: 25px;
   margin-bottom: 25px;
+
+  justify-content: center;
+}
+
+.project-content {
+  margin: 20px;
 }
 
 .preview-section a {
@@ -18,10 +25,16 @@
   color: purple;
 }
 
+.component-container .buffer {
+  width: 80%;
+
+}
+
 #preview-content {
-  width: 60%;
+  width: 45%;
 }
 
 .preview-image {
   margin-left: 20px;
+  margin: 20px;
 }
