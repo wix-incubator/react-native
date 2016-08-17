@@ -35,7 +35,13 @@
         margin: 12,
         marginBottom: 3,
         marginTop: 3,
-
+        opacity: 0.4,
+      },
+      enabledButton: {
+        height: 20,
+        margin: 12,
+        marginBottom: 3,
+        marginTop: 3,
       },
 
       image: {
@@ -62,7 +68,7 @@
               {
                 _.map(this.props.segments, (segment) => {
                   return (
-                    <img key={segment.key} style={styles.button} src={segment.button} onClick={() => {
+                    <img key={segment.key} style={segment == this.state.selectedSegment ? styles.enabledButton : styles.button} src={segment.button} onClick={() => {
                       this.setState({
                         selectedSegment: segment
                       })
