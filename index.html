@@ -34,44 +34,6 @@ $(document).ready(function(){
 
 
 {% for component in site.components %}
-  <!-- <div class="component-container">
-    {% if component.paralax %}
-      <div style="background-image: url({{component.paralax}}); padding-top: 50px;" class="paralax-effect">
-    {% else %}
-      <div style="padding-top: 50px;">
-    {% endif %}
-    {% if component.title %}
-      {% if component.paralax %}
-      <img class="dash-title" src="{{ ASSET_PATH }}/images/white_dash.png" />
-      {% else %}
-      <img class="dash-title" src="{{ ASSET_PATH }}/images/dash.png" />
-      {% endif %}
-    {% endif %}
-      <section id={{component.title}}>
-        <div class="container">
-          {% if component.paralax %}
-          <div class="paralax-container">
-          {% else %}
-          <div class="page-container">
-          {% endif %}
-          {% if component.title %}
-            <div class="page-title-header">
-              <h1 class="page-title-header-text">{{ component.title }}</h1>
-            </div>
-          {% endif %}
-            <div class="row" id="row">
-              <div class="col-xs-12">
-                {% include components/{{component.file}} %}
-              </div>
-              {% if component.buffer %}
-              <img class="buffer" src="{{ ASSET_PATH }}/images/buffer.png" />
-              {% endif %}
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </div> -->
   <div style="{% if component.paralax %}background-image: url({{component.paralax}}{% endif %});"class="{% if component.paralax %}paralax-container{% else %}component-container{% endif %}">
     {% if component.title %}<img class="dash-title" src="{{ ASSET_PATH }}/images/{% if component.paralax %}white_{% endif%}dash.png" /> {% endif %}
     <div class="page-title-header" id="{{ component.title }}">

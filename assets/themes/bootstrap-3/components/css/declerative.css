@@ -18,17 +18,28 @@
 
 .declerative-image-container {
   position: relative;
-
+  display: flex;
+  align-items: flex-start;
 }
 
 .declerative-image {
-  height: 400px;
-  margin-left: 50px;
+  height: 320px;
+  left: 30px;
+  top: 48px;
+  position: absolute;
+}
 
+
+.wix-app-icon {
+  border-radius: 12px;
+  width: 50px;
+  margin-left: -6px;
 }
 
 #iphone-frame {
   width: 243px;
   height: 417px;
+
+  position: relative;;
 
 }
