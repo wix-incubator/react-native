@@ -59,7 +59,7 @@ projects_preview:
     title: React Native Navigation
     content: App-wide support for 100% native navigation with an easy cross-platform interface.
     images:
-      ios: https://static.wixstatic.com/media/713b90_b1f6ad9b00f745dabf827f7217ab777c~mv2.png/v1/fill/w_207,h_422,al_c,q_80,usm_0.66_1.00_0.01/713b90_b1f6ad9b00f745dabf827f7217ab777c~mv2.png
+      ios: assets/themes/bootstrap-3/images/ios-navigation.png
       android: assets/themes/bootstrap-3/images/android-navigation.png
     link:
       title: Github
@@ -69,8 +69,8 @@ projects_preview:
     title: React Native Camera Kit
     content: Advanced native camera control with pre-defined aspect ratio, crop, etc
     images:
-      ios: https://static.wixstatic.com/media/713b90_e5cda94f0af948c58434154f2735480a~mv2.png/v1/fill/w_207,h_422,al_c,q_80,usm_0.66_1.00_0.01/713b90_e5cda94f0af948c58434154f2735480a~mv2.png
-      android: https://www.android.com/static/img/history/features/feature_donut_2.png
+      ios: assets/themes/bootstrap-3/images/ios-camera.png
+      android: assets/themes/bootstrap-3/images/android-camera.png
     link:
       title: Github
       url: https://github.com/wix/react-native-camera-kit
@@ -80,7 +80,7 @@ projects_preview:
     content: Handle all the aspects of push notifications for your app, including remote and local notifications, interactive notifications, silent notifications, and more.
     images:
        ios: https://static.wixstatic.com/media/713b90_86f227f56d25480abd85e2bda0003c5a~mv2.gif
-       android: https://www.android.com/static/img/history/features/feature_donut_2.png
+       android: https://static.wixstatic.com/media/713b90_86f227f56d25480abd85e2bda0003c5a~mv2.gif
     link:
       title: Github
       url: https://github.com/wix/react-native-notifications
