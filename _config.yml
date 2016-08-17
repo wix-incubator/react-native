@@ -20,7 +20,7 @@ author :
 
 baseurl: ""
 
-repo_name: open-source-template
+repo_name: react-native
 
 navigation:
   -
@@ -134,7 +134,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://etgarsh.github.io/open-source-template/
+  BASE_PATH : https://wix.github.io/react-native/
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
