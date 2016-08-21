@@ -4,18 +4,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
 
 {% for preview in site.projects_preview %}
-  <div class="preview-section">
-    <div id="preview-content">
-      <a href={{preview.link.url}} target="_blank"><h3>{{preview.title}}</h3></a>
-      <p>{{preview.content}}</p>
-      <a href={{preview.link.url}} target="_blank">{{preview.link.title}} ></a>
-    </div>
-    <div id="previewImage_{{ preview.id}}" class="preview-image">
-
-    </div>
+<div class="preview-section">
+  <div id="preview-content">
+    <a href={{preview.link.url}} target="_blank"><h3>{{preview.title}}</h3></a>
+    <p>{{preview.content}}</p>
+    <a href={{preview.link.url}} target="_blank">{{preview.link.title}} ></a>
+  </div>
+  <div id="previewImage_{{ preview.id}}" class="preview-image">
 
   </div>
-  <img class="buffer" src="{{ ASSET_PATH }}/images/buffer.png" />
+
+</div>
+
 
   <script type="text/babel">
     const styles = {
