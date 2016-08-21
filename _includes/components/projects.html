@@ -1,22 +1,118 @@
 <div id="projects-container">
-  <div class="project-section">
-      <a href="#previewImage_0"><img class="first-preview-image" /></a>
-      <h4>Navigation</h4>
-      100% Native Navigation
-  </div>
-  <div class="project-section">
-      <a href="#previewImage_1"><img class="second-preview-image" /></a>
-      <h4>Camera-Kit</h4>
-      Advanced native camera control
-  </div>
-  <div class="project-section">
-      <a href="#previewImage_2"><img class="third-preview-image" /></a>
-      <h4>Notfications</h4>
-      App push nottifications
-  </div>
-  <div class="project-section">
-      <a href="#previewImage_3"><img class="fourth-preview-image" /></a>
-      <h4>Rich Text Editor</h4>
-      React Native Wrapper for WordPress Rich Text Editor
-  </div>
+
 </div>
+
+<script type="text/babel">
+  class Project extends React.Component {
+    constructor(props) {
+      super(props);
+    }
+
+    render() {
+      return (
+        <div style={styles.projectSection}>
+            <a href={this.props.project.link}><HoverImage style={styles.projectImage} image={this.props.project.image} hover={this.props.project.hoverImage} /></a>
+            <h4>{this.props.project.title}</h4>
+            {this.props.project.content}
+        </div>
+      );
+    }
+  }
+
+  class HoverImage extends React.Component {
+    constructor(props) {
+      super(props);
+
+      this.state = {
+        hover: false,
+      };
+    }
+
+    mouseOver() {
+      this.setState({
+        hover: true,
+      });
+    }
+
+    mouseOut() {
+      this.setState({
+        hover: false,
+      });
+    }
+
+    render() {
+      return (
+        <div style={this.props.style} onMouseEnter={this.mouseOver.bind(this)} onMouseLeave={this.mouseOut.bind(this)}>
+          <img src={this.state.hover ? this.props.hover : this.props.image} />
+        </div>
+      );
+    }
+  }
+
+  class Projects extends React.Component {
+    constructor(props) {
+      super(props);
+    }
+
+    render() {
+      return (
+        <div style={styles.projects}>
+          {_.map(this.props.projects, (project) => {
+            return (<Project key={project.title} project={project} />)
+          })}
+        </div>
+      )
+    }
+  }
+
+  const styles = {
+    projects: {
+      display: 'flex',
+      flexDirection: 'row',
+    },
+    projectSection: {
+      margin: 20,
+      alignIitems: 'center',
+
+      width: 110,
+    },
+    projectImage: {
+      marginBottom: 20,
+    }
+  }
+
+  const containerId = 'projects-container';
+  var container = document.getElementById(containerId);
+  const projects = [
+    {
+      title: "Navigation",
+      content: "100% Native Navigation",
+      link: "#previewImage_0",
+      image: "{{ ASSET_PATH }}/components/images/projects/navigation.png",
+      hoverImage: "{{ ASSET_PATH }}/components/images/projects/navigation_hover.png",
+    },
+    {
+      title: "Camera-Kit",
+      content: "Advanced native camera control",
+      link: "#previewImage_1",
+      image: "{{ ASSET_PATH }}/components/images/projects/camera.png",
+      hoverImage: "{{ ASSET_PATH }}/components/images/projects/camera_hover.png",
+    },
+    {
+      title: "Notifications",
+      content: "App push notifications",
+      link: "#previewImage_2",
+      image: "{{ ASSET_PATH }}/components/images/projects/notifications.png",
+      hoverImage: "{{ ASSET_PATH }}/components/images/projects/notifications_hover.png",
+    },
+    {
+      title: "Rich Text Editor",
+      content: "React Native Wrapper for WordPress Rich Text Editor",
+      link: "#previewImage_3",
+      image: "{{ ASSET_PATH }}/components/images/projects/editor.png",
+      hoverImage: "{{ ASSET_PATH }}/components/images/projects/editor_hover.png",
+    }
+  ];
+  ReactDOM.render(<Projects projects={projects}/>, container);
+
+</script>
