@@ -36,7 +36,7 @@ $(document).ready(function(){
   <div style="{% if component.paralax %}background-image: url({{component.paralax}}{% endif %});"
        class="component-container {% if component.paralax %}with-parallax{% endif %}">
     {% if component.title %}<img class="dash-title" src="{{ ASSET_PATH }}/images/{% if component.paralax %}white_{% endif%}dash.png" /> {% endif %}
-    <div class="page-title-header" id="{{ component.title }}">
+    <div class="page-title-header" id="{{ component.id }}">
       <h1 class="page-title-header-text">{{ component.title }}</h1>
     </div>
     <div class="component-content">

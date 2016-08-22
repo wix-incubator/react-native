@@ -11,8 +11,8 @@
 
 </div>
 
-
   <script type="text/babel">
+
     const styles = {
       container: {
         display: 'inline-block',
@@ -31,6 +31,13 @@
         marginBottom: 3,
         marginTop: 3,
         opacity: 0.4,
+      },
+      hoveredButton: {
+        height: 20,
+        margin: 12,
+        marginBottom: 3,
+        marginTop: 3,
+        opacity: 0.6
       },
       enabledButton: {
         height: 20,
@@ -51,7 +58,26 @@
       constructor(props) {
         super(props);
         this.state = {
-          selectedSegment: props.segments[0]
+          selectedSegment: props.segments[0],
+          hoveredButtons: [],
+        }
+      }
+
+      buttonMouseHover(segment) {
+        // Check if the button is not selected
+        if (this.state.selectedSegment != segment) {
+          this.setState({
+            hoveredButtons: _.concat(this.state.hoveredButtons, [segment])
+          });
+        }
+      }
+
+      buttonMouseLeave(segment) {
+        // Check if the button's segment is in the hoveredButtons array
+        if (_.includes(this.state.hoveredButtons, segment)) {
+          this.setState({
+            hoveredButtons: _.pull(this.state.hoveredButtons, segment)
+          });
         }
       }
 
@@ -63,7 +89,13 @@
               {
                 _.map(this.props.segments, (segment) => {
                   return (
-                    <img key={segment.key} style={segment == this.state.selectedSegment ? styles.enabledButton : styles.button} src={segment.button} onClick={() => {
+                    <img
+                      key={segment.key}
+                      style={segment == this.state.selectedSegment ? styles.enabledButton : (_.includes(this.state.hoveredButtons, segment) ? styles.hoveredButton : styles.button)}
+                      src={segment.button}
+                      onMouseEnter={() => this.buttonMouseHover.bind(this)(segment)}
+                      onMouseLeave={() => this.buttonMouseLeave.bind(this)(segment)}
+                      onClick={() => {
                       this.setState({
                         selectedSegment: segment
                       })

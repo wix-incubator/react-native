@@ -8,13 +8,24 @@
       super(props);
     }
 
+    handleLinkClicked(link) {
+      console.log("Hello");
+      $('html, body').animate({
+        scrollTop: $(link).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = link;
+      });
+    }
+
     render() {
       return (
-        <div style={styles.projectSection}>
-            <a href={this.props.project.link}><HoverImage style={styles.projectImage} image={this.props.project.image} hover={this.props.project.hoverImage} /></a>
+        <a href="javascript:void()"><div style={styles.projectSection} onClick={() => this.handleLinkClicked.bind(this)(this.props.project.link)}>
+            <HoverImage style={styles.projectImage} image={this.props.project.image} hover={this.props.project.hoverImage} />
             <h4>{this.props.project.title}</h4>
-            {this.props.project.content}
-        </div>
+            <p>{this.props.project.content}</p>
+        </div></a>
       );
     }
   }

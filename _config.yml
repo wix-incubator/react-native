@@ -24,10 +24,10 @@ repo_name: react-native
 
 navigation:
   -
-    href: \#About
+    href: \#declerative
     title: About
   -
-    href: \#PROJECTS
+    href: \#projects
     title: Projects
   -
     href: "http://www.wix.engineering/"
@@ -36,20 +36,28 @@ navigation:
     href: "http://www.wix.engineering/"
     title: Wix Engineering
 
+header_button:
+  title: View Projects
+  href: \#projects
+
 components:
   -
+    id: declerative
     file: declerative.html
     title: About
     buffer: true
   -
+    id: projects
     file: projects.html
     title: TOP PROJECTS
     paralax: https://static.wixstatic.com/media/9ab0d1_2e3e6f22fd83405ca6df3b2f840eb3ae.jpg/v1/fill/w_1181,h_1082,al_c,q_85,usm_0.66_1.00_0.01/9ab0d1_2e3e6f22fd83405ca6df3b2f840eb3ae.jpg # Replace open-source-template to your repository name
     buffer: true
   -
+    id: preview
     file: projects_preview.html
     title: PROJECTS PREVIEW
   -
+    id: blog
     file: blog.html
     paralax: https://static.wixstatic.com/media/9ab0d1_9ad8037f74f34908aada06407b04c88e~mv1.jpg/v1/fill/w_1282,h_1082,al_t,q_85,usm_0.66_1.00_0.01/9ab0d1_9ad8037f74f34908aada06407b04c88e~mv1.jpg
 
