@@ -8,7 +8,6 @@
   width: 100%;
 
   margin: 5px;
-  margin-top: 25px;
   margin-bottom: 25px;
   padding-bottom: 72px;
   border-top: 0px solid transparent;
@@ -23,6 +22,10 @@
 .preview-section a {
   font-family: Helvetica Neue;
   font-size: 14px;
+}
+
+.preview-section h3 {
+  margin-top: 0;
 }
 
 .preview-section a:hover {
