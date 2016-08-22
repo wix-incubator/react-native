@@ -45,7 +45,6 @@ components:
     id: declerative
     file: declerative.html
     title: About
-    buffer: true
   -
     id: projects
     file: projects.html
