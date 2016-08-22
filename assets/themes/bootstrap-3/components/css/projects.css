@@ -15,14 +15,16 @@
 }
 
 #projects-container h4 {
+  font-family: helveticaneuew01-45ligh;
   font-size: 15px;
   margin-top: 40px;
   color: white;
 }
 
 #projects-container p {
+  font-family: helveticaneuew01-45ligh;
   color: white;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 

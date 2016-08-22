@@ -206,7 +206,7 @@
 
 .component-content {
 	margin: 30px;
-	/*flex: 1;*/
+	flex: 1;
 	flex-wrap: wrap;
 	max-width: 900px;
 }
