@@ -2,7 +2,7 @@
   display: -webkit-flex; /* Safari */
   display: flex;
   flex-direction: column;
-  flex: 1;
+
   margin: 10px;
 }
 
