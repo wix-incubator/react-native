@@ -20,14 +20,14 @@ author :
 
 baseurl: ""
 
-repo_name: open-source-template
+repo_name: react-native
 
 navigation:
   -
-    href: \#About
+    href: \#declerative
     title: About
   -
-    href: \#PROJECTS
+    href: \#projects
     title: Projects
   -
     href: "http://www.wix.engineering/"
@@ -36,20 +36,28 @@ navigation:
     href: "http://www.wix.engineering/"
     title: Wix Engineering
 
+header_button:
+  title: View Projects
+  href: \#projects
+
 components:
   -
+    id: declerative
     file: declerative.html
     title: About
     buffer: true
   -
+    id: projects
     file: projects.html
     title: TOP PROJECTS
     paralax: https://static.wixstatic.com/media/9ab0d1_2e3e6f22fd83405ca6df3b2f840eb3ae.jpg/v1/fill/w_1181,h_1082,al_c,q_85,usm_0.66_1.00_0.01/9ab0d1_2e3e6f22fd83405ca6df3b2f840eb3ae.jpg # Replace open-source-template to your repository name
     buffer: true
   -
+    id: preview
     file: projects_preview.html
     title: PROJECTS PREVIEW
   -
+    id: blog
     file: blog.html
     paralax: https://static.wixstatic.com/media/9ab0d1_9ad8037f74f34908aada06407b04c88e~mv1.jpg/v1/fill/w_1282,h_1082,al_t,q_85,usm_0.66_1.00_0.01/9ab0d1_9ad8037f74f34908aada06407b04c88e~mv1.jpg
 
@@ -59,8 +67,8 @@ projects_preview:
     title: React Native Navigation
     content: App-wide support for 100% native navigation with an easy cross-platform interface.
     images:
-      ios: https://static.wixstatic.com/media/713b90_b1f6ad9b00f745dabf827f7217ab777c~mv2.png/v1/fill/w_207,h_422,al_c,q_80,usm_0.66_1.00_0.01/713b90_b1f6ad9b00f745dabf827f7217ab777c~mv2.png
-      android: https://www.android.com/static/img/history/features/feature_donut_2.png
+      ios: assets/themes/bootstrap-3/images/ios-navigation.png
+      android: assets/themes/bootstrap-3/images/android-navigation.png
     link:
       title: Github
       url: https://github.com/wix/react-native-navigation
@@ -69,8 +77,8 @@ projects_preview:
     title: React Native Camera Kit
     content: Advanced native camera control with pre-defined aspect ratio, crop, etc
     images:
-      ios: https://static.wixstatic.com/media/713b90_e5cda94f0af948c58434154f2735480a~mv2.png/v1/fill/w_207,h_422,al_c,q_80,usm_0.66_1.00_0.01/713b90_e5cda94f0af948c58434154f2735480a~mv2.png
-      android: https://www.android.com/static/img/history/features/feature_donut_2.png
+      ios: assets/themes/bootstrap-3/images/ios-camera.png
+      android: assets/themes/bootstrap-3/images/android-camera.png
     link:
       title: Github
       url: https://github.com/wix/react-native-camera-kit
@@ -80,17 +88,17 @@ projects_preview:
     content: Handle all the aspects of push notifications for your app, including remote and local notifications, interactive notifications, silent notifications, and more.
     images:
        ios: https://static.wixstatic.com/media/713b90_86f227f56d25480abd85e2bda0003c5a~mv2.gif
-       android: https://www.android.com/static/img/history/features/feature_donut_2.png
+       android: https://static.wixstatic.com/media/713b90_86f227f56d25480abd85e2bda0003c5a~mv2.gif
     link:
       title: Github
       url: https://github.com/wix/react-native-notifications
   -
     id: 3
-    title: React Native WordPress Rich Text Editor
+    title: React Native WordPress <br> Rich Text Editor
     content: React Native Wrapper for WordPress Rich Text Editor. The WordPress-Editor is the text editor used in the official WordPress mobile apps to create and edit pages & posts. In short it's a simple, straightforward way to visually edit HTML.
     images:
-      ios: https://static.wixstatic.com/media/713b90_44ede959d38441aa9955bb5137503fa6~mv2.png/v1/fill/w_207,h_422,al_c,q_80,usm_0.66_1.00_0.01/713b90_44ede959d38441aa9955bb5137503fa6~mv2.png
-      android: https://www.android.com/static/img/history/features/feature_donut_2.png
+      ios: assets/themes/bootstrap-3/images/ios-blog.png
+      android: assets/themes/bootstrap-3/images/android-blog.png
     link:
       title: Github
       url: https://github.com/wix/react-native-wordpress-editor
@@ -134,7 +142,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://etgarsh.github.io/open-source-template/
+  BASE_PATH : https://wix.github.io/react-native/
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
