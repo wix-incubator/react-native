@@ -11,7 +11,7 @@
     handleLinkClicked(link) {
       console.log("Hello");
       $('html, body').animate({
-        scrollTop: $(link).offset().top
+        scrollTop: $(link).offset().top-50
       }, 800, function(){
 
         // Add hash (#) to URL when done scrolling (default click behavior)
@@ -99,28 +99,28 @@
     {
       title: "Navigation",
       content: "100% Native Navigation",
-      link: "#previewImage_0",
+      link: "#preview-section_0",
       image: "{{ ASSET_PATH }}/components/images/projects/navigation.png",
       hoverImage: "{{ ASSET_PATH }}/components/images/projects/navigation_hover.png",
     },
     {
       title: "Camera-Kit",
       content: "Advanced native camera control",
-      link: "#previewImage_1",
+      link: "#preview-section_1",
       image: "{{ ASSET_PATH }}/components/images/projects/camera.png",
       hoverImage: "{{ ASSET_PATH }}/components/images/projects/camera_hover.png",
     },
     {
       title: "Notifications",
       content: "App push notifications",
-      link: "#previewImage_2",
+      link: "#preview-section_2",
       image: "{{ ASSET_PATH }}/components/images/projects/notifications.png",
       hoverImage: "{{ ASSET_PATH }}/components/images/projects/notifications_hover.png",
     },
     {
       title: "Rich Text Editor",
       content: "React Native Wrapper for WordPress Rich Text Editor",
-      link: "#previewImage_3",
+      link: "#preview-section_3",
       image: "{{ ASSET_PATH }}/components/images/projects/editor.png",
       hoverImage: "{{ ASSET_PATH }}/components/images/projects/editor_hover.png",
     }
