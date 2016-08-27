@@ -33,7 +33,8 @@ $(document).ready(function(){
 </script>
 
 {% for component in site.components %}
-  <div style="{% if component.paralax %}background-image: url({{component.paralax}}{% endif %});"
+  <div style="{% if component.paralax %}background-image: url({{component.paralax}}{% endif %});
+        {% if component.paralax-scale %}	background-repeat: no-repeat; background-size: cover;{% endif %}"
        class="component-container {% if component.paralax %}with-parallax{% endif %}">
     {% if component.title %}<img class="dash-title" src="{{ ASSET_PATH }}/images/{% if component.paralax %}white_{% endif%}dash.png" /> {% endif %}
     <div class="page-title-header" id="{{ component.id }}">
