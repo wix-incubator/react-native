@@ -82,8 +82,6 @@
 
 	background-attachment: fixed;
 	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 	@media screen and (min-width: 64em) {
 		.wix-page-header {
