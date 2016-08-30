@@ -94,14 +94,76 @@ projects_preview:
       url: https://github.com/wix/react-native-notifications
   -
     id: 3
-    title: React Native WordPress <br> Rich Text Editor
-    content: React Native Wrapper for WordPress Rich Text Editor. The WordPress-Editor is the text editor used in the official WordPress mobile apps to create and edit pages & posts. In short it's a simple, straightforward way to visually edit HTML.
+    title: Detox
+    content: Graybox E2E tests and automation library for mobile
     images:
-      ios: assets/themes/bootstrap-3/images/ios-blog.png
-      android: assets/themes/bootstrap-3/images/android-blog.png
+      ios: https://camo.githubusercontent.com/67d771b00d2bb94931e2e2e7b607d1bcac23c831/687474703a2f2f692e696d6775722e636f6d2f4f325a7a724b472e676966
+      android: https://camo.githubusercontent.com/67d771b00d2bb94931e2e2e7b607d1bcac23c831/687474703a2f2f692e696d6775722e636f6d2f4f325a7a724b472e676966
     link:
       title: Github
-      url: https://github.com/wix/react-native-wordpress-editor
+      url: https://github.com/wix/detox
+  -
+    id: 4
+    title: React Native Autogrow Textinput
+    content: A helper component meant to be used as a drop-in replacement for RN TextInput to allow automatic expanding of a multi-line text input according to the number of lines
+    images:
+      ios: assets/themes/bootstrap-3/images/ios-autoGrowText.png
+      android: assets/themes/bootstrap-3/images/android-autoGrowText.png
+    link:
+      title: Github
+      url: https://github.com/wix/react-native-autogrow-textinput
+  -
+    id: 5
+    title: React Native Swipe View
+    content: Native container for a React Native view which supports swipe behavior (for swipe to delete and such)
+    images:
+      ios: assets/themes/bootstrap-3/images/ios-swipe.png
+      android: assets/themes/bootstrap-3/images/android-swipe.png
+    link:
+      title: Github
+      url: https://github.com/wix/react-native-swipe-view
+  -
+    id: 6
+    title: React Native Invoke
+    content: Invoke any native code directly from Javascript in React Native (without wrapping it first with a native manager). Gives you full access from JS to all native API of iOS (and Android soon).
+    images:
+      ios:
+      android:
+    link:
+      title: Github
+      url: https://github.com/wix/react-native-invoke
+  -
+    id: 7
+    title: React Native Newrelic
+    content: New Relic event reporting for react native.
+    images:
+      ios:
+      android:
+    link:
+      title: Github
+      url: https://github.com/wix/react-native-newrelic
+  -
+    id: 8
+    title: Redux Testkit
+    content: An amazing teskit for redux. The only way to test redux-thunks.
+    images:
+      ios:
+      android:
+    link:
+      title: Github
+      url: https://github.com/wix/redux-testkit
+  -
+    id: 9
+    title: Polymorphic Redux
+    content: This is a wrapper around reducers and action_types, which helps you work with redux in a OOP way, specifying events and writing only the required logic, with minimal boilerplate.
+    images:
+      ios:
+      android:
+    link:
+      title: Github
+      url: https://github.com/wix/polymorphic-redux
+
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
