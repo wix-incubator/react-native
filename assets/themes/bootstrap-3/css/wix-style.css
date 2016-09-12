@@ -68,22 +68,21 @@
 	font-family: HelveticaNeueW01-UltLt ,sans-serif;
 	font-size: 24px;
 	font-weight: normal;
-	margin: 48px;
-	margin-bottom: 72px;
-	margin-bottom: 12px;
+	margin-top: 48px;
 	letter-spacing: 3px;
 }
 
 .wix-page-header {
 	color: #ffffff;
-	text-align: center;
 	background-image: url("https://github.com/wix/react-native/blob/985d6d20b5476beac0a179182b6e95d2e7d6621d/assets/themes/bootstrap-3/images/bg-stars.png?raw=true");
 	height: 20%;
 	background-attachment: fixed;
 }
 	@media screen and (min-width: 64em) {
 		.wix-page-header {
-			padding: 12rem 6rem; } }
+			padding-top: 6rem;
+			padding-bottom: 18rem;
+			padding-left: 40rem; } }
 	@media screen and (min-width: 42em) and (max-width: 64em) {
 		.wix-page-header {
 			padding: 3rem 4rem; } }
