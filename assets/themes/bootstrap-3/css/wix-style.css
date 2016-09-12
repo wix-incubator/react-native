@@ -20,7 +20,7 @@
 .wix-io #title {
 	font-family: HelveticaNeueW01-UltLt;
 	font-size: 84px;
-	margin: 0px;
+	margin-top: 72px;
 	letter-spacing: 3px;
 	font-weight: normal;
 }
@@ -68,7 +68,8 @@
 	font-family: HelveticaNeueW01-UltLt ,sans-serif;
 	font-size: 24px;
 	font-weight: normal;
-	margin: 24px;
+	margin: 48px;
+	margin-bottom: 72px;
 	margin-bottom: 12px;
 	letter-spacing: 3px;
 }
@@ -82,7 +83,7 @@
 }
 	@media screen and (min-width: 64em) {
 		.wix-page-header {
-			padding: 5rem 6rem; } }
+			padding: 12rem 6rem; } }
 	@media screen and (min-width: 42em) and (max-width: 64em) {
 		.wix-page-header {
 			padding: 3rem 4rem; } }
