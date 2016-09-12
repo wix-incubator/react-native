@@ -70,7 +70,7 @@ projects_preview:
       ios: assets/themes/bootstrap-3/images/ios-navigation.png
       android: assets/themes/bootstrap-3/images/android-navigation.png
     link:
-      title: Github
+      title: View on Github
       url: https://github.com/wix/react-native-navigation
   -
     id: 1
@@ -80,7 +80,7 @@ projects_preview:
       ios: assets/themes/bootstrap-3/images/ios-camera.png
       android: assets/themes/bootstrap-3/images/android-camera.png
     link:
-      title: Github
+      title: View on Github
       url: https://github.com/wix/react-native-camera-kit
   -
     id: 2
@@ -90,7 +90,7 @@ projects_preview:
        ios: https://static.wixstatic.com/media/713b90_86f227f56d25480abd85e2bda0003c5a~mv2.gif
        android: https://static.wixstatic.com/media/713b90_86f227f56d25480abd85e2bda0003c5a~mv2.gif
     link:
-      title: Github
+      title: View on Github
       url: https://github.com/wix/react-native-notifications
   -
     id: 3
@@ -100,7 +100,7 @@ projects_preview:
       ios: https://camo.githubusercontent.com/67d771b00d2bb94931e2e2e7b607d1bcac23c831/687474703a2f2f692e696d6775722e636f6d2f4f325a7a724b472e676966
       android: https://camo.githubusercontent.com/67d771b00d2bb94931e2e2e7b607d1bcac23c831/687474703a2f2f692e696d6775722e636f6d2f4f325a7a724b472e676966
     link:
-      title: Github
+      title: View on Github
       url: https://github.com/wix/detox
   -
     id: 4
@@ -110,7 +110,7 @@ projects_preview:
       ios: assets/themes/bootstrap-3/images/ios-autoGrowText.png
       android: assets/themes/bootstrap-3/images/android-autoGrowText.png
     link:
-      title: Github
+      title: View on Github
       url: https://github.com/wix/react-native-autogrow-textinput
   -
     id: 5
@@ -120,7 +120,7 @@ projects_preview:
       ios: assets/themes/bootstrap-3/images/ios-swipe.png
       android: assets/themes/bootstrap-3/images/android-swipe.png
     link:
-      title: Github
+      title: View on Github
       url: https://github.com/wix/react-native-swipe-view
   -
     id: 6
@@ -130,7 +130,7 @@ projects_preview:
       ios:
       android:
     link:
-      title: Github
+      title: View on Github
       url: https://github.com/wix/react-native-invoke
   -
     id: 7
@@ -140,7 +140,7 @@ projects_preview:
       ios:
       android:
     link:
-      title: Github
+      title: View on Github
       url: https://github.com/wix/react-native-newrelic
   -
     id: 8
@@ -150,7 +150,7 @@ projects_preview:
       ios:
       android:
     link:
-      title: Github
+      title: View on Github
       url: https://github.com/wix/redux-testkit
   -
     id: 9
@@ -160,7 +160,7 @@ projects_preview:
       ios:
       android:
     link:
-      title: Github
+      title: View on Github
       url: https://github.com/wix/polymorphic-redux
 
 
