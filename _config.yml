@@ -44,11 +44,11 @@ components:
   -
     id: declerative
     file: declerative.html
-    title: About
+    title: ABOUT
   -
     id: projects
     file: projects.html
-    title: TOP PROJECTS
+    title: TOP <br> PROJECTS
     paralax: assets/themes/bootstrap-3/images/bg-stars.png
     buffer: true
   -
