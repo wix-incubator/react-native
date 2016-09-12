@@ -58,7 +58,7 @@ components:
   -
     id: blog
     file: blog.html
-    paralax: assets/themes/bootstrap-3/images/bg-stars.png
+    paralax: assets/themes/bootstrap-3/images/bg-footer.png
     paralax_scale: true
 
 projects_preview:
