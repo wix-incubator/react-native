@@ -49,7 +49,7 @@ components:
     id: projects
     file: projects.html
     title: TOP PROJECTS
-    paralax: https://static.wixstatic.com/media/9ab0d1_2e3e6f22fd83405ca6df3b2f840eb3ae.jpg/v1/fill/w_1181,h_1082,al_c,q_85,usm_0.66_1.00_0.01/9ab0d1_2e3e6f22fd83405ca6df3b2f840eb3ae.jpg # Replace open-source-template to your repository name
+    paralax: assets/themes/bootstrap-3/images/bg-stars.png
     buffer: true
   -
     id: preview
@@ -58,7 +58,7 @@ components:
   -
     id: blog
     file: blog.html
-    paralax: https://static.wixstatic.com/media/9ab0d1_9ad8037f74f34908aada06407b04c88e~mv1.jpg/v1/fill/w_1282,h_1082,al_t,q_85,usm_0.66_1.00_0.01/9ab0d1_9ad8037f74f34908aada06407b04c88e~mv1.jpg
+    paralax: assets/themes/bootstrap-3/images/bg-stars.png
     paralax_scale: true
 
 projects_preview:
