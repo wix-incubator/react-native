@@ -327,8 +327,8 @@ a:hover {
 }
 
 .wix-footer .subscribe-button:hover {
-	background-color: #733CA6;
-	color: white;
+	color: #733CA6;
+	border-color: #733CA6;
 }
 
 .wix-footer .footer-links-container {
