@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="679px" height="390px" viewBox="0 0 679 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>macbook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M64,18.9978883 C64,8.50564432 72.5046825,0 83.0010895,0 L596.998911,0 C607.492922,0 616,8.51122581 616,18.9978883 L616,369 L64,369 L64,18.9978883 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="552" height="369" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M292.341787,368 L2.00849176,368 C0.895664918,368 0,368.896666 0,370.00276 L0,378.99724 C0,380.106457 0.850698315,381.276924 1.90008787,381.618527 L23.6574308,388.701092 C24.7071743,389.04281 26.4543417,389.319618 27.5606289,389.319618 L652.024996,389.319618 C653.131168,389.319618 654.877623,389.036594 655.925554,388.687466 L677.102553,381.632152 C678.154831,381.281576 679,380.103334 679,378.99724 L679,370.00276 C679,368.893543 678.100768,368 676.991508,368 L386.657836,368 C386.879416,368.6259 387,369.299163 387,370 C387,373.313708 384.309863,376 381.003307,376 L297.996693,376 C294.684811,376 292,373.306966 292,370 C292,369.298729 292.120481,368.625558 292.341787,368 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="679" height="21.3196182" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="81" y="21" width="518" height="325"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="518" height="325" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="devices" transform="translate(-66.000000, -1136.000000)" stroke="#979797" stroke-width="2">
+            <g id="macbook" transform="translate(66.000000, 1136.000000)">
+                <use id="Rectangle" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                <use id="Combined-Shape" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                <use id="Rectangle-9" mask="url(#mask-6)" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

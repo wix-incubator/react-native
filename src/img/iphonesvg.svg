@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208px" height="426px" viewBox="0 0 208 426" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>iphone</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="13" y="52" width="182" height="322"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="182" height="322" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="208" height="425.778388" rx="34"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="208" height="425.778388" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="88" y="25.0457875" width="33" height="4.00732601" rx="2.003663"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33" height="4.00732601" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-1290.000000, -871.000000)" stroke="#979797">
+            <g id="iphone" transform="translate(1290.000000, 871.000000)">
+                <use id="Rectangle-3" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                <use id="Rectangle-6" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+                <ellipse id="Oval" cx="71" cy="27.0494505" rx="4" ry="4.00732601"></ellipse>
+                <ellipse id="Oval" cx="103.5" cy="398.228022" rx="15.5" ry="15.5283883"></ellipse>
+                <ellipse id="Oval" cx="103.5" cy="13.5247253" rx="2.5" ry="2.50457875"></ellipse>
+                <use id="Rectangle-7" mask="url(#mask-6)" stroke-width="2" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

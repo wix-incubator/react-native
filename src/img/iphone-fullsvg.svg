@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208px" height="426px" viewBox="0 0 208 426" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>iphone-full</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="devices" transform="translate(-147.000000, -593.000000)">
+            <g id="iphone-full" transform="translate(147.000000, 593.000000)">
+                <rect id="Rectangle-6" fill="#4F4C4C" x="0" y="0" width="208" height="425.778388" rx="34"></rect>
+                <ellipse id="Oval" fill="#D8D8D8" cx="71" cy="27.0494505" rx="4" ry="4.00732601"></ellipse>
+                <ellipse id="Oval" fill="#D8D8D8" cx="103.5" cy="398.228022" rx="15.5" ry="15.5283883"></ellipse>
+                <ellipse id="Oval" fill="#D8D8D8" cx="103.5" cy="13.5247253" rx="2.5" ry="2.50457875"></ellipse>
+                <rect id="Rectangle-7" fill="#D8D8D8" x="88" y="25.0457875" width="33" height="4.00732601" rx="2.003663"></rect>
+                <rect id="Rectangle-3" fill="#FFFFFF" x="14" y="53.0970696" width="180" height="320"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
