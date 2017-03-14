@@ -47,7 +47,7 @@ class Projects extends Component {
                          {(this.state.width > 700) && <ProjectsDemoAppLink p={p}/>}
                         </div> 
                         {(p.AndroidVideoUrl || p.IOSVideoUrl) && <VideoDemo project={project} size="normal" poster={p.poster} playing={this.state.playing} AndroidVideoUrl={p.AndroidVideoUrl} IOSVideoUrl={p.IOSVideoUrl}/>}
-                        {(p.Image && (!(p.AndroidVideoUrl || p.IOSVideoUrl))) && <ProjectImage/>}
+                        {(p.image && (!(p.AndroidVideoUrl || p.IOSVideoUrl))) && <ProjectImage source={p.image}/>}
                         {(this.state.width <= 700) && <ProjectsDemoAppLink p={p}/>}
                     </div>
                )} else if (p.size === 'big') { return (

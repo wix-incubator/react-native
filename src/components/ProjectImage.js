@@ -8,8 +8,8 @@ class ProjectImage extends Component {
 
   render() {
     return (
-       <div className="project-media-container">
-           <img className="project-video-div" src={androidBlog}/>
+       <div className="project-image-container">
+           <img className="project-image" src={this.props.source}/>
        </div>
     );
   }
