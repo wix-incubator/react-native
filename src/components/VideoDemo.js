@@ -48,6 +48,7 @@ class VideoDemo extends Component {
   pauseVideo() {
       this.refs.vidRef.pause()
   }
+  
   renderIOSDemo() {
       return (
         <div className="project-video-div" style={(this.state.showVideo === 'ios') ? styles.iphoneMockImg : styles.androidMockImg}>
