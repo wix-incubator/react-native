@@ -1,5 +1,4 @@
-
-const projects = {
+{
     "onlineProjectList" : ["https://raw.githubusercontent.com/bogobogo/opensource2/master/openSourceIsAwesome.json"],
     "projectList": [ "react-native-interactable", "react-native-navigation", "Detox", "react-native-camera-kit"],
     "react-native-interactable": {
@@ -51,4 +50,3 @@ const projects = {
         "AndroidDemoAppLink": ""
     }
 }
-export default projects
