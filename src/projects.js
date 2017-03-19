@@ -1,6 +1,6 @@
 
 const projects = {
-    "onlineProjectList" : ["react-native-notifications"],
+    "onlineProjectList" : ["https://raw.githubusercontent.com/bogobogo/opensource2/master/openSourceIsAwesome.json"],
     "projectList": [ "react-native-interactable", "react-native-navigation", "Detox", "react-native-camera-kit"],
     "react-native-interactable": {
         "description" : "Declarative API for handling fluid user interactions with views at 60 FPS in React Native",
