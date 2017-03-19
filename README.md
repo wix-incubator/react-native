@@ -12,7 +12,7 @@ The source files are hosted in the master branch.
 
 ### if you wish to add your project: <br>
 
-* create an "openSourceIsAwesome.json" file in your repo. It should have the following properties:
+create an "openSourceIsAwesome.json" file in your repo. It should have the following properties:
 <br>
 ```
    {
@@ -29,8 +29,5 @@ The source files are hosted in the master branch.
     "poster": "link to an image poster" (optional: a poster that will be displayed before the video plays)  
     }
 ```
-* Contact the Mobile Core team about your project. 
-<br>
-We will add your project to a whitelist and it will update automatically. 
-Any changes that you make to your json file will update the site within a few hours. 
+
 <br>
