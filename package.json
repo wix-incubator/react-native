@@ -8,6 +8,7 @@
     "lodash": "^4.17.4",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "request": "^2.81.0",
     "styled-components": "^1.4.4"
   },
   "devDependencies": {
@@ -15,7 +16,7 @@
     "react-scripts": "0.9.3"
   },
   "scripts": {
-    "updateProjects" : "node ./scripts/updateProjects.js",
+    "updateProjects": "node ./scripts/updateProjects.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
