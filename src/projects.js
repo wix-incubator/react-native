@@ -1,14 +1,6 @@
-import navigationPoster from './img/react-native-navigation-poster.jpg'
-import interactablePoster from './img/react-native-interactable-poster.jpg'
-import cameraPoster from './img/react-native-camera.jpg'
-import androidNavigationVideo from './videos/react-navigation-android.mp4'
-import iphoneNavigationVideo from './videos/react-navigation-iphone.mp4'
-import detoxVideo from './videos/detox.mp4'
-import interactableIOSVideo from './videos/react-iphone-interactable.mp4'
-import interactableAndroidVideo from './videos/react-interactable-android.mp4'
-import iphoneMock from './img/iphone-mock.png'
 
 const projects = {
+    "onlineProjectList" : ["react-native-notifications"],
     "projectList": [ "react-native-interactable", "react-native-navigation", "Detox", "react-native-camera-kit"],
     "react-native-interactable": {
         "description" : "Declarative API for handling fluid user interactions with views at 60 FPS in React Native",
