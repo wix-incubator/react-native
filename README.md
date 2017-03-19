@@ -1,4 +1,4 @@
-### Wix Mobile Open Source
+# Wix Mobile Open Source Site (WIP - Stay Tuned)
 
 ## About
 
@@ -29,5 +29,4 @@ create an "openSourceIsAwesome.json" file in your repo. It should have the follo
     "poster": "link to an image poster" (optional: a poster that will be displayed before the video plays)  
     }
 ```
-
 <br>
