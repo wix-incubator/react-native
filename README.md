@@ -10,7 +10,7 @@ The source files are hosted in the master branch.
 
 ## Usage
 
-### if you wish to add your project: <br>
+### Adding your project to the website: <br>
 
 create an "openSourceIsAwesome.json" file in your repo. It should have the following properties:
 <br>
@@ -30,3 +30,9 @@ create an "openSourceIsAwesome.json" file in your repo. It should have the follo
     }
 ```
 <br>
+
+* Contact the Mobile Core team. We will add your project to the whitelist and check that everything is ok.
+
+* That's it! Your project will be displayed and any change in your json file will update the site automatically.
+
+
