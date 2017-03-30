@@ -3,7 +3,7 @@ var fs = require('fs');
 var projectsData = require('../src/projects.json')
 
 function updateProjects(projectsJson) {
-    fs.writeFileSync('src/projects.json', projectsJson);
+    fs.writeFileSync('src/finalProjects.json', projectsJson);
 }
 
 projectsData.onlineProjectList.forEach(function(projectUrl){
